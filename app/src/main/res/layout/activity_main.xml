@@ -12,11 +12,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"/>
+        app:srcCompat="@drawable/title"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"/>
+        app:srcCompat="@drawable/bird"/>
 
 </LinearLayout>
