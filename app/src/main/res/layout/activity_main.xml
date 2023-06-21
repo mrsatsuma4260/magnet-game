@@ -10,13 +10,19 @@
     android:gravity="center">
     
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="400px"
+        android:layout_height="400px"
         app:srcCompat="@drawable/title"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="400px"
+        android:layout_height="200px"
         app:srcCompat="@drawable/bird"/>
+
+    <Button
+        android:layout_width="400px"
+        android:text="Start game"
+        android:layout_height="200px"
+        android:onClick="startGame"/>
 
 </LinearLayout>
