@@ -6,23 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@drawable/space"
     android:gravity="center">
     
+    <TextView
+        android:layout_width="900px"
+        android:layout_height="300px"
+        android:fontFamily="@font/machine_gunk"
+        android:text="Magnet Bird"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
     <ImageView
         android:layout_width="400px"
         android:layout_height="400px"
-        app:srcCompat="@drawable/title"/>
-
-    <ImageView
-        android:layout_width="400px"
-        android:layout_height="200px"
-        app:srcCompat="@drawable/bird"/>
+        app:srcCompat="@drawable/magnet"
+        android:layout_marginBottom="200px"/>
 
     <Button
         android:layout_width="400px"
-        android:text="Start game"
+        android:text="Start"
+        android:fontFamily="@font/machine_gunk"
         android:layout_height="200px"
-        android:onClick="startGame"/>
+        android:onClick="startGame"
+        android:textSize="40dp"/>
 
 </LinearLayout>
