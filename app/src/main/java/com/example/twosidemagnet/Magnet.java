@@ -1,4 +1,4 @@
 package com.example.twosidemagnet;
 
-public class Magnet {
+public class Magnet extends GameObject {
 }
